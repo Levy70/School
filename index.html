@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live People Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header class="header">
+            <h1>School Assignment!</h1>
+            <h4 class="title">Live People Filter</h4>
+            <p>You should be able to see several persons, add, delete and refresh.</p>
+            <small class="subtitle">Search by Name and/or Location</small>
+            <input type="text" id="filter" placeholder="Search">
+        </header>
+
+        <form id="addUserForm">
+            <input type="text" id="firstNameInput" placeholder="First Name" required>
+            <input type="text" id="lastNameInput" placeholder="Last Name" required>
+            <input type="text" id="cityInput" placeholder="City" required>
+            <input type="text" id="countryInput" placeholder="Country" required>
+            <button type="submit">Add User</button>
+        </form>
+
+        <ul id="result" class="people-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

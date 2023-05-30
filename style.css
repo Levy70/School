@@ -1,0 +1,102 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250vh;
+    background-color: lightgrey;
+  }
+  
+  .container {
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    margin-top: 0;
+  }
+  
+  .subtitle {
+    display: block;
+    margin-bottom: 20px;
+    opacity: 0.8;
+  }
+  
+  .people-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .people-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .people-list img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .people-list .user-info {
+    margin-bottom: 20px; 
+  }
+  
+  .user-info h4 {
+    margin: 0;
+  }
+  
+  .user-info p {
+    margin: 0;
+    font-size: 12px;
+  }
+  
+  #filter {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #addUserForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #addUserForm input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #addUserForm button {
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
